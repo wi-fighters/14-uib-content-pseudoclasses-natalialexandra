@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* buttons */
+button {
+    width: 8rem;
+    margin: 1rem auto;
+    padding: 1rem 0rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+button a {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: #fff;
+}
+
+#btn-google {
+    background-color: #e65a22;
+}
+
+#btn-bing {
+    background-color: #0b3abd;
+}
+
+#btn-yahoo {
+    background-color: #4809bd;
+}
+
+/* list */
+li {
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    padding: 2rem 0rem;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #fff;
+}
+
+li a::before {
+    content: ' \279F ';
+    font-size: 1.8rem;
+    padding: 2rem;
+}
+
+#link-html {
+    background-color: rgb(9, 192, 248);
+}
+
+#link-css {
+    background-color: rgb(236, 240, 13);
+}
+
+#link-a11y {
+    background-color: rgb(85, 250, 19);
+}
